@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background {
+    background-color: #add8e6; /* Warna biru muda */
+    display: flex;
+    justify-content: center; /* Menengahkan elemen horizontal */
+    align-items: center; /* Menengahkan elemen vertikal */
+    height: 100%;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Lebar form */
+    max-width: 400px; /* Mengatur lebar maksimum form */
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    margin-top: 20px;
+  }
+  
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #registrasi-container {
+    text-align: center;
+    margin-top: 10px; /* Jarak antara tombol "Create" dan teks "Login" */
+  }
+  
+  /* Gaya untuk teks "Login" */
+  #registrasi {
+    margin: 0;
+  }
+  
+  #registrasi a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  #registrasi a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --satu: #0D2443;
+    --dua: #2B6369;
+    --tiga: #eeeeed;
+    --empat: #F09B93;
+    --lima: #C13144;
+    --limaa: #a41d2f;
+    --enam: #fada3c;
+}
+
+.container {
+    margin: 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--satu);
+    text-align: center;
+}
+
+/* header */
+.header {
+    background-color: var(--satu);
+    color: var(--tiga);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    border-radius: 18px;
+    margin-top: 50px;
+}
+
+.header h1 {
+    color: var(--empat);
+}
+
+.header a {
+    background-color: var(--lima);
+    color: var(--tiga);
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+.header a:hover {
+    background-color: var(--limaa);
+}
+
+/* card */
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.card {
+    background-color: var(--tiga);
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.card .card_ket {
+    background-color: var(--dua);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card .card_ket img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.card .card_ket .card_title {
+    color: var(--tiga);
+}
+
+.card .card_ket .card_title h1 {
+    font-size: 20px;
+    
+}
+
+/* card isi */
+.card_isi table {
+    padding: 10px 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.card_isi table thead tr {
+    background-color: #d4d4d4;
+    height: 40px;
+}
+
+.card_isi table tbody tr td {
+    text-transform: capitalize;
+}
+
+/* Tombol Edit */
+.btn-edit {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #45a049; /* Ubah warna saat dihover */
+}
+
+/* Tombol Hapus */
+.btn-hapus {
+    background-color: #f44336; /* Warna merah */
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-hapus:hover {
+    background-color: #da190b; /* Ubah warna saat dihover */
+}

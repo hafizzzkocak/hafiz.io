@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ /HafizGagah/form_login.php [L]

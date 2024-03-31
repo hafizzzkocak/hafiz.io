@@ -1,0 +1,33 @@
+/* Navbar */
+.navbar {
+    background-color: #add8e6; /* Warna biru muda */
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Warna teks logo */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+  }
+  
+  .navbar-brand:hover {
+    color: #fff; /* Warna teks logo saat dihover */
+    text-decoration: none; /* Menghilangkan underline saat dihover */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Warna teks link */
+    font-size: 18px; /* Ukuran font */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff; /* Warna teks link saat dihover */
+    text-decoration: none; /* Menghilangkan underline saat dihover */
+  }
+  
+  .navbar-toggler {
+    border-color: #fff; /* Warna garis toggler */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Warna ikon toggler */
+  }
